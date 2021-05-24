@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp">
+
+    <LinearLayout
+        android:id="@+id/sketch_item_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:background="@drawable/style_sketches_add_new"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sketch_data"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="@color/black_80"
+        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+    <TextView
+        android:id="@+id/sketch_label"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

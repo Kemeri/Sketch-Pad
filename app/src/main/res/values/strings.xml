@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sketch-Pad</string>
+    <string name="button_add">Добавить</string>
+    <string name="delete_sketch_question">Удалить запись?</string>
+    <string name="about">Версия %1$s\nE-mail:\nkemeri20@gmail.com</string>
+    <string name="save_sketch_question">Сохранить изменения?</string>
+    <string name="send_to">Отправить скетч</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search the records</string>
+    <string name="share">Share</string>
+</resources>
